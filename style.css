@@ -1,0 +1,43 @@
+body {
+    background: chartreuse;
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(44, 139, 44);
+    
+}
+
+.snake1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+.botao1 {
+    background-color: rgba(0,0,0,.50);
+    border:blue solid;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1:hover {
+    background-color: white;
+    color: black;
+}
+
+.pe{
+    color: black;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+}
+
+
